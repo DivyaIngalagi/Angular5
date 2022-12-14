@@ -1,0 +1,42 @@
+<p>car-list works!</p>
+<div class="container custom-container-2">
+
+    <div class="no-data text-center" *ngIf="CarA.length == 0">
+      <p>There is no cars added yet!</p>
+      <button class="btn btn-outline-primary" routerLink="/create-car">
+        Add Car
+      </button>
+    </div>
+
+    <div *ngIf="CarA.length !== 0">
+      <h3 class="mb-3 text-center">Cars List</h3>
+      <div class="col-md-12">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Car Id</th>
+              <th scope="col">Car Brand</th>
+              <th scope="col">Car Model</th>
+              <th scope="col">Year</th>
+              <th scope="col">Car Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let car of CarA">
+              <td>{{car.id}}</td>
+              <td>{{car.brand}}</td>
+              <td>{{car.model}}</td>
+              <td>{{car.year}}</td>
+              <td>{{car.type}}</td>
+              <td>
+                <span class="edit" routerLink="/car-edit/{{car.id}}">Edit</span>
+                <span class="delete" (click)="deleteCar(car.id)">Delete</span>
+    
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+

@@ -1,0 +1,158 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Ford",
+      "model": "Titanium",
+      "year": 2018,
+      "type": "automatic"
+    },
+    {
+      "brand": "rtrt",
+      "model": "rtresfs",
+      "year": "1234",
+      "type": "rtret",
+      "id": 10
+    },
+    {
+      "brand": "df",
+      "model": "df",
+      "year": 0,
+      "type": "df",
+      "id": 11
+    },
+    {
+      "brand": "dgrd",
+      "model": "dfg",
+      "year": 0,
+      "type": "dfg",
+      "id": 12
+    },
+    {
+      "brand": "ed",
+      "model": "asd",
+      "year": 0,
+      "type": "asd",
+      "id": 13
+    },
+    {
+      "brand": "f",
+      "model": "fsfs",
+      "year": 0,
+      "type": "fsfs",
+      "id": 14
+    },
+    {
+      "brand": "fes",
+      "model": "sfd",
+      "year": 0,
+      "type": "sfde",
+      "id": 15
+    },
+    {
+      "brand": "sd",
+      "model": "ds",
+      "year": 0,
+      "type": "sd",
+      "id": 16
+    },
+    {
+      "brand": "asdad",
+      "model": "ads",
+      "year": 0,
+      "type": "adasd",
+      "id": 17
+    },
+    {
+      "brand": "AD",
+      "model": "a",
+      "year": 0,
+      "type": "S",
+      "id": 18
+    },
+    {
+      "brand": "a",
+      "model": "s",
+      "year": 0,
+      "type": "AS",
+      "id": 19
+    },
+    {
+      "brand": "asd",
+      "model": "asd",
+      "year": 0,
+      "type": "sad",
+      "id": 20
+    },
+    {
+      "brand": "ws",
+      "model": "AWS",
+      "year": 0,
+      "type": "AS",
+      "id": 21
+    },
+    {
+      "brand": "qw",
+      "model": "qw",
+      "year": 0,
+      "type": "wq",
+      "id": 22
+    },
+    {
+      "brand": "sad",
+      "model": "asd",
+      "year": 0,
+      "type": "dsa",
+      "id": 23
+    },
+    {
+      "brand": "as",
+      "model": "AS",
+      "year": 0,
+      "type": "as",
+      "id": 24
+    },
+    {
+      "brand": "aw",
+      "model": "asa",
+      "year": 0,
+      "type": "s",
+      "id": 25
+    },
+    {
+      "brand": "sd",
+      "model": "asd",
+      "year": 0,
+      "type": "asd",
+      "id": 26
+    },
+    {
+      "brand": "ad",
+      "model": "sad",
+      "year": 0,
+      "type": "sad",
+      "id": 27
+    },
+    {
+      "brand": "asa",
+      "model": "s",
+      "year": 0,
+      "type": "sad",
+      "id": 28
+    },
+    {
+      "brand": "asw",
+      "model": "asa",
+      "year": 0,
+      "type": "s",
+      "id": 29
+    },
+    {
+      "brand": "",
+      "model": "",
+      "year": 0,
+      "type": "",
+      "id": 30
+    }
+  ]
+}

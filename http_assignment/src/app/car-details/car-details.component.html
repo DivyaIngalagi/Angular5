@@ -1,0 +1,59 @@
+<p>car-details works!</p>
+<label>Get car details by id:</label>
+<input type="text" placeholder="Enter card ID" #keyword><br><br>
+<button (click)="getdetailsbyId(keyword.value);">getdetailsbyId</button><br><br>
+<div *ngIf="CarID.length !== 0">
+  <h3 class="mb-3 text-center">Cars List</h3>
+  <div class="col-md-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Car Id</th>
+          <th scope="col">Car Brand</th>
+          <th scope="col">Car Model</th>
+          <th scope="col">Year</th>
+          <th scope="col">Car Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let car of CarID">
+          <td>{{car.id}}</td>
+          <td>{{car.brand}}</td>
+          <td>{{car.model}}</td>
+          <td>{{car.year}}</td>
+          <td>{{car.type}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<br><br><br><br>
+<label>Get car details by Brand:</label>
+<input type="text" placeholder="Enter car Brand" #brand><br><br>
+<button (click)="getdetailsbyBrand(brand.value);">getdetailsbyBrand</button>
+<div *ngIf="CarBrand.length !== 0">
+  <h3 class="mb-3 text-center">Cars List</h3>
+  <div class="col-md-12">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Car Id</th>
+          <th scope="col">Car Brand</th>
+          <th scope="col">Car Model</th>
+          <th scope="col">Year</th>
+          <th scope="col">Car Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let car of CarBrand">
+          <td>{{car.id}}</td>
+          <td>{{car.brand}}</td>
+          <td>{{car.model}}</td>
+          <td>{{car.year}}</td>
+          <td>{{car.type}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
